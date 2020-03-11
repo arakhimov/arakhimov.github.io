@@ -11,5 +11,5 @@
 #### pattern for telephone: "(\+7|8)\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}"
 
 #### pattern for site consider: 
-##### pattern for IPv4: ((((?<!\d)(\d|[1-9]\d)(?!\d))|1\d\d|(2([0-4]\d|5[0-5])))(\.(?!$))?){4}
+##### pattern for IPv4: (([1-9]?\d|1\d\d|(2([0-4]\d|5[0-5])))(\.(?!$)|$)){4}
 ##### pattern for domain name: (?<!\-)([a-zA-Zа-яёА-ЯЁ\d](\-)?)*(?!\-)\.[a-zа-я]{2,4}
