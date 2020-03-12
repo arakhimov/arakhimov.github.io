@@ -3,7 +3,6 @@
 ## (https://arakhimov.github.io/form-validation/)
 ---
 ### Версия v0.0.4
----
 
 #### pattern for name: "[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)*"
 
