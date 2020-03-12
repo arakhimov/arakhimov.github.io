@@ -6,46 +6,6 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <header class="header">
-        <img class="header__logo" src="https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg" alt="logo">
-        <p class="header__logo-sub">Регулярные выражения</p>
-    </header>
-    <main class="container">
-        <div class="cover">
-            <div class="cover__image"></div>
-            <h1 class="cover__heading">RegExp</h1>
-        </div>
-        <div class="block">
-            <form class="form" name="register" action="http://httpbin.org/post" method="POST">
-                <h3>Форма регистрации</h3>
-                <fieldset class="form__fieldset">
-                    <div class="form__field">
-                        <input class="form__input" type="text" name="name" minlength="2" maxlength="20" 
-                               pattern="[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)*" placeholder="Имя" required />
-                    </div>
-                    <div class="form__field">
-                        <input class="form__input" type="text" name="email" pattern="[a-z\-\._\d]+@[a-z\-\._\d]+\.[a-z]{2,4}" placeholder="E-Mail" required />
-                        <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
-                    </div>
-                    <div class="form__field">
-                        <input class="form__input" type="tel" name="tel" placeholder="Телефон" minlength="11" maxlength="18"
-                               pattern="(\+7|8)\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}"  required/>
-                        <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
-                    </div>
-                    <div class="form__field">
-                        <!-- /(([1-9]?\d|1\d\d|(2([0-4]\d|5[0-5])))(\.(?!$)|$)){4}/ - для валидации IPv4 -->
-                        <!-- /(?<!\-)([a-zA-Zа-яёА-ЯЁ\d](\-)?)*(?!\-)\.[a-zа-я]{2,4}/ для валидации доменного имени -->
-                        <input class="form__input" type="url" name="url" placeholder="Ваш сайт"
-                        pattern="https?:\/\/(www\.)?((([1-9]?\d|1\d\d|(2([0-4]\d|5[0-5])))(\.(?!$)|$)){4}|(?<!\-)([a-zA-Zа-яёА-ЯЁ\d](\-)?)*(?!\-)\.[a-zа-я]{2,4})([:\d]{2,5})[\d\\a-zA-Z]+#" required/>
-                        <span class="form__error">URL в формате: http://mysite.ru</span>
-                    </div>
-                    <button class="form__button" type="submit">Отправить</button>
-                </fieldset>
-            </form>
-        </div>
-    </main>     
-=======
   <header class="header">
     <img class="header__logo" src="https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg" alt="logo">
     <p class="header__logo-sub">Регулярные выражения</p>
@@ -84,6 +44,5 @@
         </form>
       </div>
   </main>     
->>>>>>> develop
 </body>
 </html>
