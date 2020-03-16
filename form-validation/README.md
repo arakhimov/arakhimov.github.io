@@ -2,11 +2,7 @@
 ---
 ## https://arakhimov.github.io/form-validation/
 ---
-<<<<<<< HEAD
-### Версия v0.0.7
-=======
 ### Версия v0.0.8
->>>>>>> develop
 
 #### pattern for name: ```[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)*```
 ---
