@@ -1,22 +1,20 @@
-# arakhimov.github.io
----
-## PROJECTS
-1. learn-to-learn - lending with elements animation.
+## form-validation
+#### учебный проект Яндекс.Практикум
 
-https://github.com/arakhimov/learn-to-learn.git
+## https://arakhimov.github.io/form-validation/
 
+### Версия v0.0.7
 
-2. travel-to-russia - full adaptive site for different type devices.
+В проекте реализованы паттерны для валидации следующих полей:
 
-https://github.com/arakhimov/travel-to-russia.git
+1. имени: ```[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)*```
 
+2. электронной почты: ```[a-z\-\._\d]+@[a-z\-\._\d]+\.[a-z]{2,4}```
 
-3. mesto - interactive API working with remote server.
+3. телефона: ```(\+7|8)\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}```
 
-https://github.com/arakhimov/mesto.git
-
-
-4. arakhimov.github.io/form-validation - validation inputs: name, url, telephone, site.
-
-https://arakhimov.github.io/form-validation/
-
+4. адреса сайта: ```^https?:\/\/((([1-9]?\d|1\d\d|(2[0-4]\d|25[0-5]))\.){3}([1-9]?\d|1\d\d|(2[0-4]\d|25[0-5]))|(www\.)?(?!.*www\..*)(([\wа-яёА-ЯЁ](-(?!\.))?)+\.([\wа-яёА-ЯЁ](-(?!\.))?)+)+\.[a-zа-я]{2,4})(:([1-9]\d{1,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?(\/[\w\-=\?&]*\/*)*#?$```
+Паттерн адреса сайта включат в себя:
+* валидацию протокола IPv4 ```(([1-9]?\d|1\d\d|(2[0-4]\d|25[0-5]))\.){3}([1-9]?\d|1\d\d|(2[0-4]\d|25[0-5]))```
+* валидацию доменного имени: ```(www\.)?(?!.*www\..*)(([\wа-яёА-ЯЁ](-(?!\.))?)+\.([\wа-яёА-ЯЁ](-(?!\.))?)+)+\.[a-zа-я]{2,4}```
+* валидацию номера порта: ```:([1-9]\d{1,3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5])```
